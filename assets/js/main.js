@@ -122,9 +122,9 @@ setInterval(function () {
     seconds = parseInt(seconds_left % 60);
      
     // format countdown string + set tag value.
-    days_span.innerHTML = '<span class="number">' + days + '</span>' + '<span class="unit">Days</span>';
+    days_span.innerHTML = '<span class="number">' + days + '</span>' + '<span class="unit">Días</span>';
     hours_span.innerHTML = '<span class="number">' + hours + '</span>' + '<span class="unit">Hrs</span>';
     minutes_span.innerHTML = '<span class="number">' + minutes + '</span>' + '<span class="unit">Mins</span>';
-    secs_span.innerHTML = '<span class="number">' + seconds + '</span>' + '<span class="unit">Secs</span>'; 
+    secs_span.innerHTML = '<span class="number">' + seconds + '</span>' + '<span class="unit">Segs</span>'; 
  
 }, 1000);
